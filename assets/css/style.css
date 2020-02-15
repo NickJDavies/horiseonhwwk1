@@ -1,0 +1,138 @@
+/* universal style changes for website*/
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+}
+
+/*colors the background*/
+body {
+    background-color: #d9dcd6;
+}
+
+/* styles the header "horiseon" and navigation elements*/
+.header {
+    width:100%;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+    overflow: auto;
+}
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* styles navigation at the top of page */
+.header nav {
+    position: relative;
+    padding-top: 1.5%;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.website_navigation * {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 25px;
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+/*styles the image underneath  navigation */
+.background-image {
+    height: 67%;
+    width: 100%;
+    margin-bottom: 25px;
+    size: cover;
+    position: center;
+}
+
+/*stlyes the "content" section*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    float: left;
+}
+
+.content div {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    overflow: auto;
+}
+
+.content-img-left {
+    float: left;
+    margin-right: 25px;
+    max-height: 200px;
+}
+
+.content-img-right {
+    float: right;
+    margin-left: 25px;
+    max-height: 200px;
+}
+
+.content div h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*styles the "benefits" section*/
+.benefits {
+    margin-left: 1.5%;
+    padding: 1%;
+    clear: none;
+    float: left;
+    width: 20%;
+    height: 940px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    overflow: auto;
+}
+
+.benefits-heading {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefits-heading h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefits-heading img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* styles the "footer" section*/
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h4 {
+    font-size: 20px;
+}
